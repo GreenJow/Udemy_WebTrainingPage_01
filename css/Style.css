@@ -21,7 +21,7 @@
 }
 
 .logo .logo_text {
-    font-family: 'Roboto';
+    font-family: Roboto;
     font-size: 15px;
     font-weight: 500;
     font-stretch: normal;
@@ -38,11 +38,9 @@ h1 {
 }
 
 .title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 41px;
     font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 0.59;
     letter-spacing: normal;
     text-align: center;
@@ -56,11 +54,9 @@ h2.title {
 }
 
 .simple .title_big {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 80px;
     font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
@@ -70,7 +66,7 @@ h2.title {
 }
 
 .promo .promo_text {
-    font-family: 'Roboto Light';
+    font-family: 'Roboto', sans-serif;
     font-size: 21px;
     font-weight: 300;
     font-stretch: normal;
@@ -84,14 +80,14 @@ h2.title {
     margin-top: 23px;
 }
 .promo .promo_text span {
-    font-family: 'Roboto Bold';
+    font-family: 'Roboto';
     font-weight: bold;
     color: #f9bf3b;
 }
 
 .promo .promo_btn {
     display: block;
-    margin: 0 auto;
+    margin: 0px auto;
     margin-top: 73px;
     width: 313px;
     height: 72px;
@@ -102,7 +98,7 @@ h2.title {
     font-family: 'Roboto Condensed';
     font-size: 21px;
     font-weight: normal;
-    line-height: 1.14;
+    line-height: 24px;
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
@@ -115,7 +111,7 @@ h2.title {
 }
 
 .more .more_text {
-    font-family: 'Roboto - Thin';
+    font-family: 'Roboto';
     font-size: 15px;
     font-weight: 100;
     line-height: 1.6;
@@ -130,3 +126,62 @@ h2.title {
     margin-top: 13px;
 }
 
+.expectations {
+        height: 604px;
+        padding: 85px 0 75px 0;
+        background-color: #efefef;
+}
+
+.expectations .expectations_header {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #252525;
+}
+
+.expectations .expectations_divider {
+    margin: 0 auto;
+    margin-top: 18px;
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+}
+
+.expectations .expectations_subheader {
+    margin-top: 17px ;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: normal;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.expectations .expectations_wrapper {
+    margin-top: 45px;
+}
+
+.expectations .expectations_wrapper .expectations_item {
+    margin: 0 15px;
+    display: inline-block;
+    vertical-align: top;
+    width: 339px;
+    text-align: center;
+}
+
+.expectations .expectations_wrapper .expectations_item .expectations_img {
+    width: 100%;
+}
+
+.expectations .expectations_wrapper .expectations_item .expectations_descr {
+    margin-top: 33px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #4a4a4a;
+}
